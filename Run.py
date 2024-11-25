@@ -242,13 +242,13 @@ class MAIN:
   | | |  _ \ /___)  _)/ _  | || || |/ _ \ / || |/ _  |
  _| |_| | | |___ | |_( ( | | || || | |_| ( (_| ( ( | |
 [bold white](_____)_| |_(___/ \___)_||_|_||_||_|\___/ \____|\_||_|
-        [underline green]Free Instagram Followers - by Rozhak""", width=59, style="bold bright_black"))
+        [underline green]Free Instagram Followers - by ANGGA""", width=59, style="bold bright_black"))
         return (True)
 
     def DELAY(self, menit, detik, your_username):
-        self.TOTAL = (menit * 60 + detik)
+        self.TOTAL = (menit * 250 + detik)
         while (self.TOTAL):
-            MENIT, DETIK = divmod(self.TOTAL, 60)
+            MENIT, DETIK = divmod(self.TOTAL, 250)
             printf(f"[bold bright_black]   ──>[bold green] @{str(your_username)[:20].upper()}[bold white]/[bold green]{MENIT:02d}:{DETIK:02d}[bold white] SUKSES:-[bold green]{len(SUKSES)}[bold white] GAGAL:-[bold red]{len(GAGAL)}     ", end='\r')
             time.sleep(1)
             self.TOTAL -= 1
