@@ -246,9 +246,9 @@ class MAIN:
         return (True)
 
     def DELAY(self, menit, detik, your_username):
-        self.TOTAL = (menit * 160 + detik)
+        self.TOTAL = (menit * 120 + detik)
         while (self.TOTAL):
-            MENIT, DETIK = divmod(self.TOTAL, 160)
+            MENIT, DETIK = divmod(self.TOTAL, 120)
             printf(f"[bold bright_black]   ──>[bold green] @{str(your_username)[:20].upper()}[bold white]/[bold green]{MENIT:02d}:{DETIK:02d}[bold white] SUKSES:-[bold green]{len(SUKSES)}[bold white] GAGAL:-[bold red]{len(GAGAL)}     ", end='\r')
             time.sleep(1)
             self.TOTAL -= 1
