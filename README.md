@@ -19,7 +19,7 @@
 ```
 $ apt update -y && apt upgrade -y
 $ pkg install git python-pip
-$ git clone https://github.com/RozhakXD/InstaModa
+$ git clone https://github.com/RizkyWow/InstaModa
 $ cd "InstaModa"
 $ python -m pip install -r requirements.txt
 $ python Run.py
@@ -35,14 +35,6 @@ $ python Run.py
 - **Login Failures**: If you experience login issues, try logging in manually on another device first. After successful login, retry the program.
 - **Followers Decreasing**: If followers decrease, it might be because their accounts were blocked or marked as spam by Instagram
 
-## Support
-If you find this project useful and would like to support its development, consider making a donation:
-
-- [Trakteer](https://trakteer.id/rozhak_official/tip)
-- [PayPal](https://paypal.me/rozhak9)
-
-## Screenshot
-![FunPic_20240813](https://github.com/user-attachments/assets/28b49a03-0500-46c6-b273-c3d0170ecdab)
 
 ## Disclaimer
 This tool is intended for educational purposes only. Use at your own risk. The creator is not responsible for any actions taken against your Instagram account.
